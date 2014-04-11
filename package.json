@@ -1,0 +1,14 @@
+{
+    "name": "icheckmovies-icon-font",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/studio-donder/icheckmovies-icon-font.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-nodeunit": "~0.3.3",
+        "grunt-webfont": "^0.3.4"
+    }
+}
