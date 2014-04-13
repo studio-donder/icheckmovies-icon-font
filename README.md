@@ -8,5 +8,6 @@ See the ``LICENSE.md`` file.
 
 ## Changelog
 
+See the ``CHANGELOG.md`` file.
 
 [1]: http://www.icheckmovies.com
