@@ -8,11 +8,11 @@ iCheckMovies Icon Font is an open source icon font, designed for the [iCheckMovi
 
 ## License
 
-See the ``LICENSE.md`` file.
+See the [``LICENSE.md``](LICENSE.md) file.
 
 ## Changelog
 
-See the ``CHANGELOG.md`` file.
+See the [``CHANGELOG.md``](CHANGELOG.md) file.
 
 ## Usage
 
