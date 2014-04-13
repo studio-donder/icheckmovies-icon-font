@@ -2,9 +2,9 @@
 
 iCheckMovies Icon Font is an open source icon font, designed for the [iCheckMovies][1] website. It features dozens of unique icons in three styles:
 
-* **Default**: just the icon (``.icm-icon-*``)
-* **Circled**: the icon with a nice circle around it (``.icm-icon-*-circled``)
-* **Filled**: a filled circle with a negative cutout of the icon (``.icm-icon-check-filled``)
+* **Default**: just the icon (``.icm-icon-*``).
+* **Circled**: the icon with a nice circle around it (``.icm-icon-*-circled``).
+* **Filled**: a filled circle with a negative cutout of the icon (``.icm-icon-check-filled``).
 
 ## License
 
