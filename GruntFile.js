@@ -24,10 +24,10 @@ module.exports = function (grunt) {
             }
         },
         less: {
-            beautyfied: {
+            normal: {
                 options: {
                     paths: ["build/styles"],
-                    cleancss: true
+                    cleancss: false
                 },
                 files: {
                     "build/styles/iCheckMovies.css": "build/styles/iCheckMovies.less"
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
     grunt.task.registerTask('build', [
         'clean:clean',
         'webfont:icons',
-        'less:beautyfied',
+        'less:normal',
         'less:minified'
     ]);
 };
