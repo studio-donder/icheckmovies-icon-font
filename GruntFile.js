@@ -22,14 +22,37 @@ module.exports = function (grunt) {
                     htmlDemo: false
                 }
             }
+        },
+        less: {
+            beautyfied: {
+                options: {
+                    paths: ["build/styles"],
+                    cleancss: true
+                },
+                files: {
+                    "build/styles/iCheckMovies.css": "build/styles/iCheckMovies.less"
+                }
+            },
+            minified: {
+                options: {
+                    paths: ["build/styles"],
+                    cleancss: true
+                },
+                files: {
+                    "build/styles/iCheckMovies.min.css": "build/styles/iCheckMovies.less"
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-webfont');
 
     grunt.task.registerTask('build', [
-        'clean',
-        'webfont'
+        'clean:clean',
+        'webfont:icons',
+        'less:beautyfied',
+        'less:minified'
     ]);
 };
