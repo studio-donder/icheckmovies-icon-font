@@ -27,4 +27,9 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-webfont');
+
+    grunt.task.registerTask('build', [
+        'clean',
+        'webfont'
+    ]);
 };
