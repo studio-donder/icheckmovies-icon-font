@@ -49,7 +49,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-webfont');
 
-    grunt.task.registerTask('build', [
+    grunt.task.registerTask('default', [
         'clean:clean',
         'webfont:icons',
         'less:normal',
