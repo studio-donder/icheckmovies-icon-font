@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Sat May  3 20:49:11 2014
+Created by FontForge 20120731 at Sat May  3 21:12:52 2014
  By Piet van Dongen
 Created by Piet van Dongen with FontForge 2.0 (http://fontforge.sf.net)
 </metadata>
@@ -34,7 +34,7 @@ d="M256 448q106 0 181 -75t75 -181t-75 -181t-181 -75t-181 75t-75 181t75 181t181 7
     <glyph glyph-name="uniE002" unicode="&#xe002;" 
 d="M256 448q106 0 181 -75t75 -181t-75 -181t-181 -75t-181 75t-75 181t75 181t181 75zM286 128l126 126l-60 60l-127 -126l-52 53l-61 -61l53 -52l30 -31l30 -30v0l30 30z" />
     <glyph glyph-name="uniE003" unicode="&#xe003;" horiz-adv-x="300" 
-d="M240 336l60 -61l-127 -126l-28 -28l-32 -32v0l-33 32l-27 28l-53 53l60 60l53 -53z" />
+d="M240 320l60 -60l-127 -127l-28 -28l-32 -32v0l-33 33l-27 27l-53 53l60 60l53 -53z" />
     <glyph glyph-name="uniE004" unicode="&#xe004;" 
 d="M256 448q106 0 181 -75t75 -181t-75 -181t-181 -75t-181 75t-75 181t75 181t181 75zM256 -47q99 0 169 70t70 169t-70 169t-169 70t-169 -70t-70 -169t70 -169t169 -70zM213 192q0 43 43 43t43 -43t-43 -43t-43 43zM111 192q0 43 43 43q42 0 42 -43t-42 -43q-43 0 -43 43
 zM316 192q0 43 42 43q43 0 43 -43t-43 -43q-42 0 -42 43z" />
