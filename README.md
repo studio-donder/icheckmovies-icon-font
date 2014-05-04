@@ -57,5 +57,36 @@ Always use the ``.icm-icon`` class combined with a specific icon class (e.g. ``i
 
 This prints an icon with a ``+`` shape and a circle around it.
 
+## Building yourself
+
+### Node.js
+
+In order to build the icon fonts, LESS and CSS yourself, you'll need to have [node.js][3] installed on your development machine. 
+
+### FontForge
+
+Also, since this project is relying on ``grunt-webfont``, please refer to [its documentation][4] regarding the installation of [FontForge][5], which enables auto hinting on the generated fonts.
+
+### Dependencies
+
+Once you've installed node.js, browse to the project's root directory and run the following command to install all dependencies:
+
+```bash
+npm install
+```
+### Grunt
+
+Now you're ready to build! This project uses [Grunt][6] to run all its task. There are a few tasks defined in the ``Gruntfile.js`` task definition file, but we've defined an [alias task][7] called ``default`` that runs all necessary tasks in the correct order (from the project's root directory again):
+
+```bash
+grunt default
+```
+
+This will clean all files, generate the font files, LESS and finally all CSS files in the ``build`` directory.
+
 [1]: http://www.icheckmovies.com/
 [2]: http://lesscss.org/
+[3]: http://nodejs.org/
+[4]: https://github.com/sapegin/grunt-webfont#installation
+[5]: http://fontforge.org/
+[6]: http://gruntjs.com/
