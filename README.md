@@ -1,5 +1,7 @@
 # [iCheckMovies][1] Icon Font [![Bower version](https://badge.fury.io/bo/icheckmovies-icon-font.svg)](http://badge.fury.io/bo/icheckmovies-icon-font) [![Build Status](https://travis-ci.org/studio-donder/icheckmovies-icon-font.svg?branch=master)](https://travis-ci.org/studio-donder/icheckmovies-icon-font) [![devDependency Status](https://david-dm.org/studio-donder/icheckmovies-icon-font/dev-status.svg?theme=.io)](https://david-dm.org/studio-donder/icheckmovies-icon-font#info=devDependencies)
 
+<img align="right" width="200" src="http://studio-donder.github.io/icheckmovies-icon-font/images/icon-preview.png">
+
 iCheckMovies Icon Font is an open source icon font, designed for the [iCheckMovies][1] website. It features dozens of unique icons in three styles:
 
 * **Default**: just the icon (``.icm-icon-*``).
