@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+* Added tests
+
 ## 0.1.2
 
 * Enable bower installation

@@ -1,12 +1,14 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+
         clean: {
             clean: [
                 'build/fonts',
                 'build/styles'
             ]
         },
+
         webfont: {
             icons: {
                 src: 'icons/*.svg',
@@ -23,6 +25,7 @@ module.exports = function (grunt) {
                 }
             }
         },
+
         less: {
             normal: {
                 options: {
@@ -33,6 +36,7 @@ module.exports = function (grunt) {
                     "build/styles/iCheckMovies.css": "build/styles/iCheckMovies.less"
                 }
             },
+
             minified: {
                 options: {
                     paths: ["build/styles"],
@@ -42,17 +46,35 @@ module.exports = function (grunt) {
                     "build/styles/iCheckMovies.min.css": "build/styles/iCheckMovies.less"
                 }
             }
+        },
+
+        mochaTest: {
+            test: {
+                options: {
+                    reporter: 'spec'
+                },
+                src: ['test/*.js']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-webfont');
+    grunt.loadNpmTasks('grunt-mocha-test');
 
     grunt.task.registerTask('default', [
         'clean:clean',
         'webfont:icons',
         'less:normal',
         'less:minified'
+    ]);
+
+    grunt.task.registerTask('test', [
+        'clean:clean',
+        'webfont:icons',
+        'less:normal',
+        'less:minified',
+        'mochaTest:test'
     ]);
 };
