@@ -82,7 +82,7 @@ Now you're ready to build! This project uses [Grunt][6] to run all its task. The
 grunt default
 ```
 
-This will clean all files, generate the font files, LESS and finally all CSS files in the ``build`` directory.
+This will clean all files, generate the font files, compile the LESS files to CSS and put the results in the ``build`` directory.
 
 [1]: http://www.icheckmovies.com/
 [2]: http://lesscss.org/
@@ -90,3 +90,4 @@ This will clean all files, generate the font files, LESS and finally all CSS fil
 [4]: https://github.com/sapegin/grunt-webfont#installation
 [5]: http://fontforge.org/
 [6]: http://gruntjs.com/
+[7]: http://gruntjs.com/creating-tasks#alias-tasks
