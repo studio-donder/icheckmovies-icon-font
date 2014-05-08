@@ -16,11 +16,21 @@ See the [``CHANGELOG.md``](CHANGELOG.md) file.
 
 ## Usage
 
-### Fonts
+### Quick start
+
+You can either:
+
+* [Download the latest release][9]
+* Clone the repository: `git clone https://github.com/studio-donder/icheckmovies-icon-font.git`
+* Install with [Bower][8]: `bower install icheckmovies-icon-font`
+
+### Manual usage
+
+#### Fonts
 
 Copy the font files (availabe in ``eot``, ``svg``, ``ttf`` and ``woff`` format) you need from ``build/fonts`` to your project's font folder. You can also install them in your OS and use them to design stuff.
 
-### CSS
+#### CSS
 
 Use one of the CSS files found in ``build/styles`` (normal or minified) and include them in your project. The CSS imports the font files using the ``@font-face`` declaration:
 
@@ -37,7 +47,7 @@ Use one of the CSS files found in ``build/styles`` (normal or minified) and incl
 
 Replace the ``/fonts/`` path with the path you installed the fonts in.
 
-### LESS
+#### LESS
 
 If you prefer building the CSS yourself using [LESS][2], use the LESS file found in ``build/styles``. You can customize three variables to adjust the output file to your project's environment. Default values are:
 
@@ -47,7 +57,7 @@ If you prefer building the CSS yourself using [LESS][2], use the LESS file found
 @icm-icon-font-svg-id: "iCheckMovies";
 ```
 
-### HTML
+#### HTML
 
 Always use the ``.icm-icon`` class combined with a specific icon class (e.g. ``icm-icon-plus-circled``). For example:
 
@@ -91,3 +101,5 @@ This will clean all files, generate the font files, compile the LESS files to CS
 [5]: http://fontforge.org/
 [6]: http://gruntjs.com/
 [7]: http://gruntjs.com/creating-tasks#alias-tasks
+[8]: http://bower.io/
+[9]: https://github.com/studio-donder/icheckmovies-icon-font/releases
