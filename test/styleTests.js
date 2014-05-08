@@ -6,27 +6,39 @@ var styleFileName = 'iCheckMovies';
 describe('Style creation tests', function () {
     describe('style file', function () {
         it('.css file should exist', function () {
-            fs.existsSync(styleBuildDirectoryPath + styleFileName + '.css').should.be.true;
+            fs.exists(styleBuildDirectoryPath + styleFileName + '.css', function (fileExists) {
+                fileExists.should.be.true;
+            });
         })
 
         it('.less file should exist', function () {
-            fs.existsSync(styleBuildDirectoryPath + styleFileName + '.less').should.be.true;
+            fs.exists(styleBuildDirectoryPath + styleFileName + '.less', function (fileExists) {
+                fileExists.should.be.true;
+            });
         })
 
         it('.min.css file should exist', function () {
-            fs.existsSync(styleBuildDirectoryPath + styleFileName + '.min.css').should.be.true;
+            fs.exists(styleBuildDirectoryPath + styleFileName + '.min.css', function (fileExists) {
+                fileExists.should.be.true;
+            });
         })
 
         it('.css size should be more than 0', function () {
-            fs.statSync(styleBuildDirectoryPath + styleFileName + '.css').size.should.be.above(0);
+            fs.stat(styleBuildDirectoryPath + styleFileName + '.css', function (err, stats) {
+                stats.size.should.be.above(0);
+            });
         })
 
         it('.less size should be more than 0', function () {
-            fs.statSync(styleBuildDirectoryPath + styleFileName + '.less').size.should.be.above(0);
+            fs.stat(styleBuildDirectoryPath + styleFileName + '.less', function (err, stats) {
+                stats.size.should.be.above(0);
+            });
         })
 
         it('.min.css size should be more than 0', function () {
-            fs.statSync(styleBuildDirectoryPath + styleFileName + '.min.css').size.should.be.above(0);
+            fs.stat(styleBuildDirectoryPath + styleFileName + '.min.css', function (err, stats) {
+                stats.size.should.be.above(0);
+            });
         })
     })
 })
