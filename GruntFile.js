@@ -48,12 +48,19 @@ module.exports = function (grunt) {
             }
         },
 
-        mochaTest: {
+        mochacov: {
+            coverage: {
+                options: {
+                    coveralls: true
+                }
+            },
             test: {
                 options: {
                     reporter: 'spec'
-                },
-                src: ['test/*.js']
+                }
+            },
+            options: {
+                files: 'test/*.js'
             }
         }
     });
@@ -61,7 +68,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-webfont');
-    grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-mocha-cov');
 
     grunt.task.registerTask('default', [
         'clean:clean',
@@ -75,6 +82,10 @@ module.exports = function (grunt) {
         'webfont:icons',
         'less:normal',
         'less:minified',
-        'mochaTest:test'
+        'mochacov:test'
+    ]);
+
+    grunt.task.registerTask('travis', [
+        'mochacov:coverage'
     ]);
 };

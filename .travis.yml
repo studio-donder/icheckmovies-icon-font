@@ -1,7 +1,6 @@
 language: node_js
-node_js:
-  - '0.10'
-  - '0.11'
 before_install:
   - sudo apt-get install fontforge eot-utils
   - npm install -g grunt-cli
+after_success:
+  - grunt travis
