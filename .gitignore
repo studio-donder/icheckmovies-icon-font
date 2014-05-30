@@ -1,6 +1,6 @@
-# Node modules
+# Dependencies
 node_modules
 
-# IntelliJ IDEA files
+# IDE files
 *.iml
 .idea

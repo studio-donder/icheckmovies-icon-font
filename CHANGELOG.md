@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+* Cleaned up bower distribution package
+
 ## 0.1.3
 
 * Added tests

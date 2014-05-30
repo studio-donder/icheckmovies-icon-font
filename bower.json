@@ -21,7 +21,10 @@
         "build/styles/iCheckMovies.min.css"
     ],
     "ignore": [
+        ".gitignore",
+        ".travis.yml",
         "icons",
+        "test",
         "templates",
         "GruntFile.js",
         "package.json"
