@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'iCheckMovies';
-  src: url('/fonts/iCheckMovies.eot');
-  src: url('/fonts/iCheckMovies.eot?#iefix') format('embedded-opentype'), url('/fonts/iCheckMovies.woff') format('woff'), url('/fonts/iCheckMovies.ttf') format('truetype'), url('/fonts/iCheckMovies.svg#iCheckMovies') format('svg');
+  src: url('../fonts/iCheckMovies.eot');
+  src: url('../fonts/iCheckMovies.eot?#iefix') format('embedded-opentype'), url('../fonts/iCheckMovies.woff') format('woff'), url('../fonts/iCheckMovies.ttf') format('truetype'), url('../fonts/iCheckMovies.svg#iCheckMovies') format('svg');
 }
 .icm-icon {
   position: relative;

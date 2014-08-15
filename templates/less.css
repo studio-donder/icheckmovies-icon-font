@@ -1,5 +1,5 @@
 // iCheckMovies icon font
-@icm-icon-font-path:       "/fonts/";
+@icm-icon-font-path:       "../fonts/";
 @icm-icon-font-name:       "<%= fontBaseName %>";
 @icm-icon-font-svg-id:     "<%= fontBaseName %>";
 
