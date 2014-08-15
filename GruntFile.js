@@ -47,10 +47,11 @@ module.exports = function (grunt) {
                 destCss: 'build/styles',
                 options: {
                     htmlDemo: false,
+                    engine: 'node',
                     font: 'iCheckMovies',
                     hashes: false,
                     relativeFontPath: '@{icm-icon-font-path}@{icm-icon-font-name}',
-                    startCodepoint: 0xE600,
+                    startCodepoint: 0xE001,
                     stylesheet: 'less',
                     syntax: 'bootstrap',
                     template: 'templates/less'
