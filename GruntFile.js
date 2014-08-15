@@ -9,23 +9,6 @@ module.exports = function (grunt) {
             ]
         },
 
-        webfont: {
-            icons: {
-                src: 'icons/*.svg',
-                dest: 'build/fonts',
-                destCss: 'build/styles',
-                options: {
-                    font: 'iCheckMovies',
-                    hashes: false,
-                    syntax: 'bootstrap',
-                    template: 'templates/less',
-                    stylesheet: 'less',
-                    relativeFontPath: '@{icm-icon-font-path}@{icm-icon-font-name}',
-                    htmlDemo: false
-                }
-            }
-        },
-
         less: {
             normal: {
                 options: {
@@ -54,6 +37,24 @@ module.exports = function (grunt) {
                     reporter: 'spec'
                 },
                 src: ['test/*.js']
+            }
+        },
+
+        webfont: {
+            icons: {
+                src: 'icons/*.svg',
+                dest: 'build/fonts',
+                destCss: 'build/styles',
+                options: {
+                    htmlDemo: false,
+                    font: 'iCheckMovies',
+                    hashes: false,
+                    relativeFontPath: '@{icm-icon-font-path}@{icm-icon-font-name}',
+                    startCodepoint: 0xE600,
+                    stylesheet: 'less',
+                    syntax: 'bootstrap',
+                    template: 'templates/less'
+                }
             }
         }
     });
