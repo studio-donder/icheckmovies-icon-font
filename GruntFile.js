@@ -47,7 +47,6 @@ module.exports = function (grunt) {
                 destCss: 'build/styles',
                 options: {
                     htmlDemo: false,
-                    engine: 'node',
                     font: 'iCheckMovies',
                     hashes: false,
                     relativeFontPath: '@{icm-icon-font-path}@{icm-icon-font-name}',
