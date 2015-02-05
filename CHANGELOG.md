@@ -2,7 +2,7 @@
 
 ## 0.1.9
 
-* Added pencil, Twitter logo and Rotten Tomatoes logo icons
+* Added pencil, Twitter, IMDb and Rotten Tomatoes logo icons
 
 ## 0.1.4
 
