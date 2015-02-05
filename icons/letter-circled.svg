@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<path fill="#010101" d="M8,0C3.582,0,0,3.582,0,8c0,4.418,3.582,8,8,8s8-3.582,8-8C16,3.582,12.418,0,8,0z M8,15.467
-	c-4.117,0-7.466-3.35-7.466-7.467S3.883,0.533,8,0.533S15.467,3.883,15.467,8S12.117,15.467,8,15.467z"/>
-<polygon fill="#010101" points="3.6,5.013 8,7.946 12.4,5.013 12.4,4.8 3.6,4.8 "/>
-<polygon fill="#010101" points="8,8.587 7.808,8.459 3.6,5.654 3.6,11.2 12.4,11.2 12.4,5.654 8.192,8.459 "/>
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<path d="M256,17.066c131.75,0,238.934,107.184,238.934,238.934S387.75,494.934,256,494.934S17.067,387.75,17.067,256
+		S124.25,17.066,256,17.066 M256,0C114.617,0,0,114.612,0,256c0,141.383,114.617,256,256,256c141.384,0,256-114.617,256-256
+		C512,114.612,397.384,0,256,0L256,0z"/>
+	<g>
+		<polygon points="396.8,160.413 396.8,153.6 115.2,153.6 115.2,160.413 256,254.279 		"/>
+		<polygon points="262.15,270.684 256,274.783 249.85,270.684 115.2,180.921 115.2,358.4 396.8,358.4 396.8,180.921 		"/>
+	</g>
+</g>
 </svg>

@@ -4,3 +4,6 @@ node_modules
 # IDE files
 *.iml
 .idea
+
+# Temporary files
+temp

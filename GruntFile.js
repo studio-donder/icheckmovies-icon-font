@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 
         clean: {
             clean: [
+                'temp',
                 'build/fonts',
                 'build/styles'
             ]
@@ -40,13 +41,26 @@ module.exports = function (grunt) {
             }
         },
 
+        svgmin: {
+            optimize: {
+                files: [{
+                    expand: true,
+                    cwd: 'icons/',
+                    src: ['**/*.svg'],
+                    dest: 'temp/icons/'
+                }]
+            }
+        },
+
         webfont: {
             icons: {
-                src: 'icons/*.svg',
+                src: 'temp/icons/*.svg',
                 dest: 'build/fonts',
                 destCss: 'build/styles',
                 options: {
+                    autoHint: true,
                     destHtml: 'demo/',
+                    engine: 'node',
                     font: 'iCheckMovies',
                     hashes: false,
                     htmlDemo: true,
@@ -64,11 +78,13 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-webfont');
     grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-svgmin');
+    grunt.loadNpmTasks('grunt-webfont');
 
     grunt.task.registerTask('default', [
         'clean:clean',
+        'svgmin:optimize',
         'webfont:icons',
         'less:normal',
         'less:minified'
@@ -76,6 +92,7 @@ module.exports = function (grunt) {
 
     grunt.task.registerTask('test', [
         'clean:clean',
+        'svgmin:optimize',
         'webfont:icons',
         'less:normal',
         'less:minified',

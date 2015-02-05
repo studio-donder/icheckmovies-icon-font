@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+* Optimized source SVGs, build no longer depends on FontForge
+
 ## 0.1.9
 
 * Added pencil, Twitter, IMDb and Rotten Tomatoes logo icons

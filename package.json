@@ -1,30 +1,31 @@
 {
-    "name": "icheckmovies-icon-font",
-    "version": "0.1.9",
-    "description": "iCheckMovies Icon Font is an open source icon font, designed for the iCheckMovies website. It features dozens of unique icons in three styles.",
-    "contributors": [
-        {
-            "name": "Piet van Dongen",
-            "email": "piet@studio-donder.nl",
-            "url": "https://github.com/pietvandongen"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/studio-donder/icheckmovies-icon-font.git"
-    },
-    "devDependencies": {
-        "grunt": "0.4.5",
-        "grunt-contrib-clean": "0.6.0",
-        "grunt-contrib-jshint": "0.11.0",
-        "grunt-contrib-less": "1.0.0",
-        "grunt-contrib-nodeunit": "0.4.1",
-        "grunt-webfont": "0.5.1",
-        "grunt-mocha-test": "0.12.7",
-        "grunt-cli": "0.1.13",
-        "should": "4.6.4"
-    },
-    "scripts": {
-        "test": "grunt test"
+  "name": "icheckmovies-icon-font",
+  "version": "1.0.0",
+  "description": "iCheckMovies Icon Font is an open source icon font, designed for the iCheckMovies website. It features dozens of unique icons in three styles.",
+  "contributors": [
+    {
+      "name": "Piet van Dongen",
+      "email": "piet@studio-donder.nl",
+      "url": "https://github.com/pietvandongen"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/studio-donder/icheckmovies-icon-font.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-jshint": "0.11.0",
+    "grunt-contrib-less": "1.0.0",
+    "grunt-contrib-nodeunit": "0.4.1",
+    "grunt-mocha-test": "0.12.7",
+    "grunt-svgmin": "2.0.0",
+    "grunt-webfont": "0.5.1",
+    "should": "4.6.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
 }
