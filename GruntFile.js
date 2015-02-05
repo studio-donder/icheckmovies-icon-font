@@ -55,7 +55,8 @@ module.exports = function (grunt) {
                     startCodepoint: 0xE001,
                     stylesheet: 'less',
                     syntax: 'bootstrap',
-                    template: 'templates/less'
+                    template: 'templates/less.css',
+                    types: 'eot,woff,ttf,svg'
                 }
             }
         }

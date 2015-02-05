@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9
+
+* Added pencil, Twitter logo and Rotten Tomatoes logo icons
+
 ## 0.1.4
 
 * Cleaned up bower distribution package
