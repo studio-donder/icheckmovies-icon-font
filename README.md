@@ -100,10 +100,11 @@ This will clean all files, generate the font files, compile the LESS files to CS
 
 ## Versioning
 
-To release a new version, update the following files:
+To release a new version, do as follows:
 
-* [``package.json``](package.json): update the version number.
-* [``CHANGELOG.md``](CHANGELOG.md): describe the changes here.
+* Update [``package.json``](package.json): update the version number.
+* Update [``CHANGELOG.md``](CHANGELOG.md): describe the changes here.
+* Release the version in the releases tab on GitHub.
 
 [1]: http://www.icheckmovies.com/
 [2]: http://lesscss.org/

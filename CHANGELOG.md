@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+Fixed three-bars bug.
+
 ## 1.0.0
 
 * Optimized source SVGs, build no longer depends on FontForge
