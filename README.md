@@ -98,6 +98,13 @@ grunt default
 
 This will clean all files, generate the font files, compile the LESS files to CSS and put the results in the ``build`` directory.
 
+## Versioning
+
+To release a new version, update the following files:
+
+* [``package.json``](package.json): update the version number.
+* [``CHANGELOG.md``](CHANGELOG.md): describe the changes here.
+
 [1]: http://www.icheckmovies.com/
 [2]: http://lesscss.org/
 [3]: http://nodejs.org/
