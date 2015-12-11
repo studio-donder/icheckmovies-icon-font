@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+Add reply and save icons.
+
 ## 1.0.1
 
 Fixed three-bars bug.
