@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+Fixed export icons.
+
 ## 1.0.3
 
 Add export icons.
