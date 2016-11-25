@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+Add export icons.
+
 ## 1.0.2
 
 Add reply and save icons.
