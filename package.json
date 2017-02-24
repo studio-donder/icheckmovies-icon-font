@@ -1,6 +1,6 @@
 {
   "name": "icheckmovies-icon-font",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "iCheckMovies Icon Font is an open source icon font, designed for the iCheckMovies website. It features dozens of unique icons in three styles.",
   "contributors": [
     {
@@ -25,6 +25,7 @@
     "grunt-contrib-jshint": "0.11.0",
     "grunt-contrib-less": "1.0.0",
     "grunt-contrib-nodeunit": "0.4.1",
+    "grunt-less-to-sass": "0.0.10",
     "grunt-mocha-test": "0.12.7",
     "grunt-svgmin": "2.0.0",
     "grunt-webfont": "0.5.1",

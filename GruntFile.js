@@ -32,6 +32,18 @@ module.exports = function (grunt) {
             }
         },
 
+        lessToSass: {
+            convert: {
+                files: [{
+                    expand: true,
+                    cwd: 'build/styles',
+                    src: ['iCheckMovies.less'],
+                    ext: '.scss',
+                    dest: 'build/styles'
+                }]
+            }
+        },
+
         mochaTest: {
             test: {
                 options: {
@@ -78,6 +90,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-less-to-sass');
     grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-svgmin');
     grunt.loadNpmTasks('grunt-webfont');
@@ -87,7 +100,8 @@ module.exports = function (grunt) {
         'svgmin:optimize',
         'webfont:icons',
         'less:normal',
-        'less:minified'
+        'less:minified',
+        'lessToSass:convert'
     ]);
 
     grunt.task.registerTask('test', [
