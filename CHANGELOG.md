@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+Fixed build.
+
 ## 1.0.6
 
 Add flame icons.
