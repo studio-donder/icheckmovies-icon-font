@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.6
+
+Add flame icons.
+
+## 1.0.5
+
+Fixed export icons again :S
+
 ## 1.0.4
 
 Fixed export icons.
