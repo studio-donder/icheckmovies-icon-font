@@ -7,3 +7,5 @@ node_modules
 
 # Temporary files
 temp
+
+.DS_Store
