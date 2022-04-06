@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.8
+
+Add import icons.
+
 ## 1.0.7
 
 Fixed build.
