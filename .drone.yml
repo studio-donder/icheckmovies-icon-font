@@ -22,7 +22,7 @@ steps:
     environment:
       NODE_AUTH_TOKEN:
         from_secret: NPM_AUTH_TOKEN
-    when:
-      event:
-        - tag
+    # when:
+    #   event:
+    #     - tag
     
