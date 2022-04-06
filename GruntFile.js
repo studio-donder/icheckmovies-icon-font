@@ -110,6 +110,7 @@ module.exports = function (grunt) {
         'webfont:icons',
         'less:normal',
         'less:minified',
+        'lessToSass:convert',
         'mochaTest:test'
     ]);
 };
