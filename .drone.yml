@@ -10,7 +10,7 @@ steps:
   - name: build
     image: node:current-slim
     commands:
-      - apt-get install fontforge eot-utils
+      - apt-get update && apt-get install fontforge eot-utils
       - npm install -g grunt-cli
       - npm install
       - npm test
