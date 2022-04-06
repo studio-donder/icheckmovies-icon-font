@@ -14,6 +14,15 @@
       "url": "https://github.com/marijngiesen"
     }
   ],
+  "files": [
+      "build/fonts/iCheckMovies.eot",
+      "build/fonts/iCheckMovies.svg",
+      "build/fonts/iCheckMovies.ttf",
+      "build/fonts/iCheckMovies.woff",
+      "build/styles/iCheckMovies.css",
+      "build/styles/iCheckMovies.less",
+      "build/styles/iCheckMovies.min.css"
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/studio-donder/icheckmovies-icon-font.git"

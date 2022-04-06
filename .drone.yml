@@ -1,0 +1,28 @@
+kind: pipeline
+type: docker
+name: default
+
+workspace:
+  base: /build/icm-icon-font
+  path: src
+
+steps:
+  - name: build
+    image: node:current-slim
+    commands:
+      - apt-get install fontforge eot-utils
+      - npm install -g grunt-cli
+      - npm install
+      - npm test
+
+  - name: publish
+    image: node:current-slim
+    commands:
+      - npm publish
+    environment:
+      NODE_AUTH_TOKEN:
+        from_secret: NPM_AUTH_TOKEN
+    when:
+      event:
+        - tag
+    

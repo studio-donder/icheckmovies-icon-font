@@ -1,4 +1,0 @@
-language: node_js
-before_install:
-  - sudo apt-get install fontforge eot-utils
-  - npm install -g grunt-cli
