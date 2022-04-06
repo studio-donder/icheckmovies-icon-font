@@ -21,6 +21,7 @@
       "build/fonts/iCheckMovies.woff",
       "build/styles/iCheckMovies.css",
       "build/styles/iCheckMovies.less",
+      "build/styles/iCheckMovies.scss",
       "build/styles/iCheckMovies.min.css"
   ],
   "repository": {
