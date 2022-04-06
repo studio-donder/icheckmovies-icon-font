@@ -20,7 +20,7 @@ steps:
     commands:
       - npm publish
     environment:
-      NODE_AUTH_TOKEN:
+      NPM_TOKEN:
         from_secret: NPM_AUTH_TOKEN
     # when:
     #   event:
